@@ -22,10 +22,10 @@ tfid = open('tfidf.pickle','rb')
 vectorization = pickle.load(tfid)
 
 
-consumer_key= 'vPBSIb38pXD74EKJvULzBGbvg'
-consumer_secret= 'MT1sePKda0gFh0Nb9NJTF1rRPeEQlU5xmcEuhbBbqwHB52pz9F'
-access_token= '3188894918-mYJFrZoUi716btRLz17y5mzAYKgIrsy2m25tH1w'
-access_token_secret= 'Bfw06ypwxtDqRCacIVwKMZTYRszDmq0qlRLmjC46AlwWu'
+consumer_key= '{}'
+consumer_secret= '{}'
+access_token= '{}'
+access_token_secret= '{}'
 
 auth = tw.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
